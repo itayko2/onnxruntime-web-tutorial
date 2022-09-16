@@ -1,4 +1,4 @@
-# onnxruntime-web-tutorial
+# Fruit Classification App Node.js + ONNX
 
 Fruit Classification app based on the great tutorial by Max Kraan
 
