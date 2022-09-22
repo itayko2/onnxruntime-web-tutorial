@@ -11,7 +11,6 @@ const DIMS = [1, 3, WIDTH, WIDTH];
 const MAX_LENGTH = DIMS[0] * DIMS[1] * DIMS[2] * DIMS[3];
 const MAX_SIGNED_VALUE = 255.0;
 const classes = require("./fruits_classes.json").data;
-//const classes = require("./imagenet_classes.json").data;
 
 let predictedClass;
 let isRunning = false;
