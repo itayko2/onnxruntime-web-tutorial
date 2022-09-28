@@ -113,6 +113,7 @@ function argMax(arr) {
 
 async function run(inputTensor) {
   try {
+    console.log("about to read model")
     const session = await ort.InferenceSession.create("src/assets/model.onnx");
     const feeds = { input1: inputTensor };
     console.log(`Output: ${feeds}`)
